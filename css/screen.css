@@ -1,0 +1,77 @@
+body {
+  padding-top: 54px;
+  font-family: "Cabin", Helvetica, Arial, sans-serif; }
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px; } }
+@media (max-width: 991px) {
+  body {
+    padding-top: 176px; } }
+@media (max-width: 243px) {
+  body {
+    padding-top: 216px; } }
+.carousel-item {
+  height: 65vh;
+  max-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+img {
+  background-size: cover; }
+
+.logo-img {
+  width: 100px;
+  height: 100px;
+  top: 56px;
+  left: 0;
+  position: fixed;
+  z-index: 1100;
+  overflow: hidden; }
+  .logo-img img {
+    max-width: 100%;
+    height: auto; }
+
+.card button {
+  border: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  overflow: hidden;
+  transition: all 03s ease; }
+.card .btn-default {
+  width: 15%;
+  top: 45%;
+  left: 42%;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute; }
+.card .card-image-carousel {
+  position: relative; }
+
+.btn:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+@media only screen and (max-width: 480px) {
+  button {
+    overflow: hidden;
+    content: ""; } }
+@media only screen and (max-width: 1000px) {
+  .social-media ul li {
+    visibility: hidden; }
+
+  .logo-img {
+    visibility: hidden; } }
+.card-header {
+  text-transform: uppercase; }
+
+.shadow3:hover {
+  box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px); }
+
+/*# sourceMappingURL=screen.css.map */
